@@ -12,7 +12,7 @@ module.exports = {
       date: "November 15",
       // If your event is free, just comment this line
       price: "$100",
-      venue: "Coco Bongo",
+      venue: "Your Venue",
       address: "Boulevard Kukulcan, 30",
       city: "Cancún",
       state: "Quintana"
