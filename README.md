@@ -17,7 +17,6 @@ An iniciative of [BrazilJS Foundation](http://braziljs.org) to help those people
 * [Getting Started](#getting-started)
 * [Structure](#structure)
 * [Customization](#customization)
-* [Deploy](#deploy)
 * [Showcase](#showcase)
 * [Contributing](#contributing)
 * [Who is behind it?](#who-is-behind-it)
@@ -27,7 +26,7 @@ An iniciative of [BrazilJS Foundation](http://braziljs.org) to help those people
 
 [![image](http://f.cl.ly/items/1q3i0r3q0n3y1N070M47/Screen%20Shot%202012-11-16%20at%207.05.44%20PM.png)](http://www.youtube.com/watch?v=EI99oZI3nKY)
 
-We use [DocPad](https://github.com/bevry/docpad), a static generator in NodeJS, to create an easily customizable template. More than that, hosting is free via [GitHub Pages](http://pages.github.com) and you can use your own domain *(more information about that on [Deploy](#custom-domain))*
+We use [DocPad](https://github.com/bevry/docpad), a static generator in NodeJS, to create an easily customizable template. 
 
 By default, we have the following sections:
 
@@ -233,31 +232,6 @@ partners: [
   url: "http://braziljs.org"
 ]
 ```
-
-## Deploy
-
-We don't like to centralize the power of deploy in one person, so we'll use [GitHub Pages](http://pages.github.com) that is free. You just need to run:
-
-```sh
-$ npm run deploy
-```
-
-Wait a few minutes until GitHub send you an email telling that everything went well. Then just access: `http://yourUser.github.com/yourFork`
-
-### Custom domain
-
-If you don't want to use GitHub domain, you can use your own with a few steps.
-
-1. Create a `CNAME` file under `src/files` folder and fill with your domain: `yourevent.com`.
-2. Change the DNS of your domain [following GitHub instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
-
-### How to Deploy without GitHub Pages
-
-If you want to use your own server to host the website:
-
-* Run `npm run generate` on the root of the project.
-
-This command will generate a folder called `out` that contains just static files, then just upload them to your server.
 
 ## Showcase
 
