@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "Your Conference Name Here",
-      description: "Conference description",
+      description: "Your Conference Description",
       date: "November 15",
       // If your event is free, just comment this line
       price: "$100",
