@@ -13,9 +13,9 @@ module.exports = {
       // If your event is free, just comment this line
       price: "$100",
       venue: "Your Venue",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      address: "Moscone Center",
+      city: "San Francisco",
+      state: "California"
     },
 
     // The Call To Action button at the header,
