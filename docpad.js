@@ -7,8 +7,8 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Your Conference Name Here",
-      description: "Your Conference Description",
+      name: "Netlify Universe",
+      description: "Netlify all the things!",
       date: "November 15",
       // If your event is free, just comment this line
       price: "$100",
