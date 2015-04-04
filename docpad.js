@@ -11,7 +11,7 @@ module.exports = {
       description: "Netlify all the things!",
       date: "November 15",
       // If your event is free, just comment this line
-      price: "$100",
+      price: "$1000",
       venue: "Your Venue",
       address: "Moscone Center",
       city: "San Francisco",
